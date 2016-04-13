@@ -2,13 +2,13 @@
 
 Contributers:
 
-Piyush Gupta			     piyush@usc.edu
+Piyush Gupta			                piyush@usc.edu
 
-Siddharth Dasani			 sdasani@usc.edu
+Siddharth Dasani			            sdasani@usc.edu
 
-Susanth Dahal			     dahal@usc.edu
+Susanth Dahal			                dahal@usc.edu
 
-Dishant Shahani	       dshahani@usc.edu
+Dishant Shahani	                  dshahani@usc.edu
 
 
 
