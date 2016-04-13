@@ -17,10 +17,6 @@ inputFileName = os.path.basename(inputFilePath)
 
 
 ouputFile = open(directory + "\\" + inputFileName + "_parsed.txt" ,'w')
-#inputFile = open(r"C:\Users\Piyush\Desktop\NLP Project\Corpus\trainreview",'rU')
-#the_page = inputFile.read() 
-#inputFile.close()
-#ouputFile = open("trainreview_parsed_books.txt",'w')
 
 dict = {}
 def WriteTagInFile(tag,tagName):
