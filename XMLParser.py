@@ -6,6 +6,7 @@ import os
 import json
 
 
+
 inputFilePath = sys.argv[1]
 inputFile = open(inputFilePath)
 the_page = inputFile.read()
