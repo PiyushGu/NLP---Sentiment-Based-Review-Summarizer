@@ -5,6 +5,7 @@ import subprocess
 import os
 from multiprocessing import pool
 
+
 def sentiment_analyser(summary, lang):
     final_features = {}
     for title in summary:
