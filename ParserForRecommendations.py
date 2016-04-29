@@ -5,7 +5,7 @@ import sys
 import os
 import json
 
-
+# to take input file path 
 inputFilePath = sys.argv[1]
 
 # inputFilePath = r"C:\Users\Piyush\Desktop\NLP Project\Corpus\cls-acl10-unprocessed\fr\dvd\testFile.review"
@@ -17,6 +17,7 @@ directory = os.path.dirname(inputFilePath)
 print directory
 inputFileName = os.path.basename(inputFilePath)
 
+#opening output File
 ouputFile = open(directory + "\\" + inputFileName + "parsed_for_recommend.txt", 'w')
 
 dict = {}
