@@ -6,6 +6,9 @@ def apriori():
     basket_items=[]
     set_items=set()
     lines=[l.rstrip() for l in open(files[1],'r')]
+    
+    
+    #Spliting the line with delimeter = ','
     for line in lines:
         basket_items.append(line.split(','))
     for basket in basket_items:
