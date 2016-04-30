@@ -1,4 +1,4 @@
-
+// Java Program which is used to find the semantic similarity between the given pair
 import de.linguatools.disco.CorruptConfigFileException;
 import de.linguatools.disco.DISCO;
 import de.linguatools.disco.DISCO.SimilarityMeasure;
