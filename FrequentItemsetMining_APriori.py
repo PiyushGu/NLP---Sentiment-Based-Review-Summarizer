@@ -1,3 +1,7 @@
+'''
+Python program used to find the frequent item set by implementing A-Priori
+'''
+
 import sys
 import itertools
 files=sys.argv
