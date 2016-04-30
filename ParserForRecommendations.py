@@ -1,3 +1,7 @@
+'''
+Python program used to parse a particular review
+'''
+
 import urllib, urllib2, time
 import StringIO
 from xml.dom.minidom import parse
