@@ -1,4 +1,4 @@
-# NLP---Sentiment-Based-Review-Summarizer
+# NLP---Multi Lingual Sentiment based Review Summarizer
 
 Contributers:
 
