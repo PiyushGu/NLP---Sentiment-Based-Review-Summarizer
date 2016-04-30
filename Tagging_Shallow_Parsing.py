@@ -108,7 +108,7 @@ def parseInput():
 
     summaries = [books_summary, dvd_summary, music_summary]
     jsonData = json.dumps(summaries)
-    outFile = open("summarized_list",'w')
+    outFile = open("Summarized_Review_List.txt",'w')
     outFile.write(jsonData)
     outFile.close()
 
