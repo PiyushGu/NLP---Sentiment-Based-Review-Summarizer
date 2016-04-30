@@ -1,3 +1,7 @@
+'''
+Python program which is used to find Sentiment and Semantic similarity of the given sentence of French and German
+'''
+
 import sys, json
 import pattern.fr
 from textblob_de import TextBlobDE as TextBlob
@@ -5,12 +9,18 @@ import subprocess
 import os
 from multiprocessing import pool
 
+#method to find the sentiment of given summary based on the given language
 def sentiment_analyser(summary, lang):
+    #dictionary to  final features
     final_features = {}
     for title in summary:
+        # positive semantic list
         positive_semantic_list = []
+        # negative semantic list
         negative_semantic_list = []
+        # positive feautures list
         positive_features_list = []
+        # negative feautures list
         negative_features_list = []
         for each_pair in summary[title]:
             flag = False
