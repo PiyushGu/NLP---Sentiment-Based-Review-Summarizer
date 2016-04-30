@@ -1,5 +1,5 @@
 %%
-%% IEEEtran.cls 2011/11/03 version V1.8 based on
+%% IEEEtran.cls  2011/11/03 version V1.8 based on
 %% IEEEtran.cls 2007/03/05 version V1.7a
 %% The changes in V1.8 are made with a single goal in mind:
 %% to change the look of the output using the [conference] option
