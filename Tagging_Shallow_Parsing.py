@@ -1,3 +1,7 @@
+'''
+Python program which is used to do POS Tagging of French and German Reviews
+'''
+
 import pattern.fr
 import pattern.de
 import sys
@@ -115,8 +119,3 @@ def parseInput():
 
 if __name__ == '__main__':
     parseInput()
-
-
-
-
-
